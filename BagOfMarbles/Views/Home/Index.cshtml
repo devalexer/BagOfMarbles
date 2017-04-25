@@ -1,19 +1,20 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
+<div><h1>Let's Play A Super Fun Game Of Marbles!</h1></div>
 
+<div class="mainbody">
+    <div class="row">
+        <div class="col-lg-12">
 
+            <ul id="marbleList"></ul>
 
-<div class="row">
-    <div class="col-lg-12">
-
-        <ul id="marbleList"></ul>
-
+        </div>
     </div>
-</div>
-<div class="row">
-    <div class="col-md-12">
-        <input type="text" name="color" value="" id="newMarbleColor" />
-        <button onclick="talkToServer();"> Click me</button>
+    <div class="row">
+        <div class="col-md-12">
+            <input type="text" name="color" value="" id="newMarbleColor" />
+            <button class="btn" onclick="talkToServer();"> Add a color to the bag</button>
+        </div>
     </div>
 </div>

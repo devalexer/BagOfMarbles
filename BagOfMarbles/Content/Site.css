@@ -8,8 +8,16 @@
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    background-color: rgba(20,20,20, .7);
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.btn {
+    color: black;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
