@@ -8,7 +8,7 @@ let addToList = (marble) => {
         .append($("<li>").html(marble.Color));
 }
 
-let printToScreen = (marble) => {
+let printRandomToScreen = (marble) => {
     $("#randomMarble")
         .append($("<li>").html(marble.Color));
 }
@@ -52,6 +52,11 @@ let loadMarbles = () => {
 loadMarbles();
 
 
+let findRandomMarble = () => {
+    let allMarbles = $("#allMarbles").children();
+    var rand = Math.floor(Math.random(0 * allMarbles.length));
+    $("#random")
+}
 
 
 
