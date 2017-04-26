@@ -8,6 +8,11 @@ let addToList = (marble) => {
         .append($("<li>").html(marble.Color));
 }
 
+let printToScreen = (marble) => {
+    $("#randomMarble")
+        .append($("<li>").html(marble.Color));
+}
+
 let talkToServer = () => {
 
     let newMarble = {
@@ -45,3 +50,8 @@ let loadMarbles = () => {
 }
 
 loadMarbles();
+
+
+
+
+

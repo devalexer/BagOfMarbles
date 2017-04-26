@@ -27,5 +27,28 @@ namespace BagOfMarbles.Controllers
             return Ok(marble);
         }
 
+        //[HttpGet]
+        //public IHttpActionResult Random()
+        //{
+
+        //    var random = new Random();
+        //    var marbles = new MarbleContext();
+        //    int randomizedMarble = random.Next(marbles.Count);
+        //    return Ok(marbles(randomizedMarble));
+
+
+        //    int index = Marble.Color.Next(names.Count);
+        //    var randomizedMarble = names[index];
+        //    return randomizedMarble;
+
+        //    var randomIndex = Math.floor(Math.random() * marble.Color.length);
+        //    var randomMarble = textArray[randomIndex];
+
+        //    var randomNum = new Random().Next(0, Marble.Length - 1);
+        //    var randomizedMarble = Marble[randomNum];
+
+        //    return Ok(randomizedMarble);
+
+        //}
     }
 }
