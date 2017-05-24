@@ -1,16 +1,14 @@
-# BagOfMarbles
+# README - BagOfMarbles
 
 This was a homework assignment for The Iron Yard to practice JQuery and AJAX by creating bag of marbles 'game'.
 
 ### REQUIREMENTS
 
-- Create an app for a bag of marbles
+Create an app for a bag of marbles
 
 This API has two endpoints:
 - Return a random marble
 - Add a marble to the bag
-
-NOTE: Marbles should be stored in a static list in the controller, not in the database.
 
 On index.cshtml
 - add a button that gets a marble and, using jquery, displays a random marble
